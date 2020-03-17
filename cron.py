@@ -4,11 +4,11 @@ import os
 from datetime import datetime
 import time
 
-#Ã¿¸ônÃëÖ´ĞĞÒ»´Î
+#æ¯éš”nç§’æ‰§è¡Œä¸€æ¬¡
 def timer(n):
     while True:
         print(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
         os.system("python C:/Users/Administrator/Desktop/pu.py")
         time.sleep(n)
-#Ò»Ìì
+#ä¸€å¤©
 timer(86400)
