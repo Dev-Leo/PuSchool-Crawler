@@ -9,8 +9,9 @@ headers = {
 'Cookie': 'You cookie'
 }
 
+#i=你要爬取的页面数量
 urllist = []
-for i in range(669):
+for i in range(5):
     url = 'http://cszyedu.pocketuni.net/index.php?app=event&mod=School&act=rank&k=3&p={page}'.format(page=i)
     urllist.append(url)
 
