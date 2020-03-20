@@ -25,7 +25,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
         python -m pip install --upgrade requests
         python -m pip install --upgrade BeautifulSoup
     - name: cszy
